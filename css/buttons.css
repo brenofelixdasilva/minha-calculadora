@@ -1,0 +1,63 @@
+.calc-linhas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#botoes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+button{
+    color: #FAEBCF;
+    border-radius: 10px;
+    border: none;
+    width: 64px;
+    height: 58px;
+    margin: 10px 4px 4px 4px;
+    font-size: 33px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+button:hover{
+ background: #32180d;
+}
+
+.linhaum{
+    background: #5D2E1A;
+    margin-top: 35px;
+}
+
+.btnNumeradores{
+    background: #82B1AB;
+    color: #FAEBCF;
+}
+
+.btnNumeradores:hover{
+    background: #5a7c77;
+}
+
+.btnOperadores{
+    background: #5D2E1A;
+}
+
+#btnMais{
+    background: #D64937;
+}
+
+#btnMais:hover{
+    background: #993023;
+}
+
+#AC{
+    background: #D64937 !important;
+    
+}
+
+#AC:hover{
+    background:#993023 !important;
+}
