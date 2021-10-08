@@ -57,11 +57,15 @@ button:hover{
     background: #82B1AB;
 }
 
+#btnIgual:hover{
+    background: #5a7c77;
+}
+
 #btnAC{
     background: #D64937 !important;
     
 }
 
-#AC:hover{
+#btnAC:hover{
     background:#993023 !important;
 }
