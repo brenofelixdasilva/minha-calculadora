@@ -13,16 +13,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-
-#container-principal{
-    color:white;
-    background: #F4E6C9;
-    padding: 20px;
-    width: 286px;
-    border-radius: 35px;
-    box-shadow: 5px 5px 3px 0px #0000003d;
-    height: auto;
+    position: relative;
 }
 
 #resultado{
@@ -38,4 +29,29 @@ body {
     align-content: center;
     align-items: center;
 }
+
+#container-principal{
+    color:white;
+    background: #F4E6C9;
+    padding: 20px;
+    width: 286px;
+    border-radius: 35px;
+    box-shadow: 5px 5px 3px 0px #0000003d;
+    height: auto;
+}
+
+#dedicatoria {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-style: italic;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: 700;
+}
+
+a {
+    color: black;
+}
+
 
